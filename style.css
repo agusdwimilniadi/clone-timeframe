@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Arapey");
+
+body {
+  margin: 0;
+  font-family: "Arapey";
+}
+
+section {
+  padding: 3em;
+  height: 100vh;
+  position: relative;
+  box-sizing: border-box;
+}
+section blockquote {
+  font-size: 2.3em;
+  width: 30%;
+  margin-top: 17%;
+  position: absolute;
+}
+section blockquote span {
+  width: 100%;
+  background: red;
+  display: block;
+  height: 5px;
+  margin-top: 20px;
+}
+
+img {
+  position: absolute;
+}
+
+img:nth-of-type(1) {
+  width: 40%;
+  right: 0;
+  top: 20%;
+}
+img:nth-of-type(2) {
+  width: 25%;
+  right: 40%;
+  top: 29%;
+  margin-top: 15%;
+}
+section:nth-child(odd) {
+  background: black;
+}
+.sticky {
+  background: white !important;
+}
+
+.percentage {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+#box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border: 5px solid lightgray;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.header2 {
+  top: 50%;
+  font-size: 600%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.box-image {
+  width: 15%;
+  height: 20%;
+  bottom: -10%;
+  right: 35%;
+  background-color: white;
+}
+.box-image2 {
+  width: 15%;
+  height: 20%;
+  right: 1%;
+  background-color: blue;
+}
+.box-image3 {
+  width: 15%;
+  height: 20%;
+  right: 1%;
+  bottom: 30%;
+  background-color: yellow;
+}
+.box-image4 {
+  width: 15%;
+  height: 20%;
+  bottom: 32%;
+  right: 18%;
+  background-color: purple;
+}
+.box-image5 {
+  width: 15%;
+  height: 25%;
+  bottom: 6%;
+  right: 15%;
+  background-color: red;
+}
+.sticky1 img {
+  top: 10%;
+  right: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-desc {
+  bottom: 25%;
+}
+.box-1 {
+  bottom: -100%;
+  right: 0;
+}
